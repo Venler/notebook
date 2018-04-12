@@ -19,11 +19,25 @@
 function manangeArr(array){
     var newArr = [];
     array.forEach(elment => {
-        if(newArr.indexof(element) === -1){
+        if(newArr.indexOf(element) === -1){
             newArr.push(element);
         }
-    })
+    });
     return newArr;
+}
+```
+
+```js
+//排序去除相邻重复元素
+function manangeArr2(arr){
+    var arrSort = arr.sort();  
+    var arr4 = [];  
+    for(let i = 0; i< arrSort.length; i++) {  
+        if(arrSort[i] != arrSort[i+1]) {  
+            arr4.push(arrSort[i]);  
+        }  
+    }  
+    return arr4;
 }
 ```
 
