@@ -58,6 +58,7 @@ Object.prototype.toString.call();
 **在百度百科中解释闭包就是能够读取其他函数内部变量的函数，在JS中可以理解为定义在一个函数内部的函数，嵌套的函数可以访问在其外部声明的变量，在MDN中解释为闭包是函数和声明该函数的词法环境的组合**
 
 ```js
+//词法作用域
 function init(){
     var name = "wei";
     function display(){
@@ -68,5 +69,45 @@ function init(){
 init();
 ```
 
+```js
+//闭包的形成
+function init(){
+    var name = "wei";
+    return function(){
+        console.log(name);
+    }
+}
+var myfunc = init();
+myfunc();
+```
 
+**闭包使用**
+
+用闭包模拟私有方法
+
+创建一个计数器
+
+```js
+var makeCounter = function(){
+    var num = 0;
+    function add(val){
+        num += val;
+    }
+    return {
+        crement: function(){
+            add(1);
+        },
+        increment: function(){
+            add(-1);
+        },
+        value: function(){
+            return num;
+        }
+    }
+};
+var Counter1 = makeCounter();
+var Counter2 = makeCounter();
+```
+
+请注意两个计数器 `counter1`和 `counter2`是如何维护它们各自的独立性的。每个闭包都是引用自己词法作用域内的变量 `num`。
 
