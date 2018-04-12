@@ -41,5 +41,34 @@ function manangeArr2(arr){
 }
 ```
 
+## 事件委托 {#articleHeader2}
+
+得益于事件冒泡，当多个元素有相同的事件，将事件绑定在父元素
+
+## 判断变量类型 {#articleHeader3}
+
+typeof\(\)用于判断简单数据；
+
+```js
+Object.prototype.toString.call();
+```
+
+## 闭包
+
+**闭包就是能够读取其他函数内部变量的函数，在JS中可以理解为定义在一个函数内部的函数，嵌套的函数可以访问在其外部声明的变量**
+
+```js
+function init(){
+    var name = "wei";
+    function display(){
+        console.log(name);
+    }
+    display();
+}
+init();
+```
+
+
+
 
 
