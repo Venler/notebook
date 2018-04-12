@@ -109,5 +109,5 @@ var Counter1 = makeCounter();
 var Counter2 = makeCounter();
 ```
 
-请注意两个计数器 `counter1`和 `counter2`是如何维护它们各自的独立性的。每个闭包都是引用自己词法作用域内的变量 `num`。
+请注意两个计数器 `counter1`和 `counter2`是如何维护它们各自的独立性的。每个闭包都是引用自己词法作用域内的变量 `num`。实现数据隐藏和封装
 
