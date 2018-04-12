@@ -4,4 +4,5 @@
 * [First Chapter](chapter1.md)
 * [20180411](20180411.md)
 * [0412](0412.md)
+  * [随机学习](0412/sui-ji-xue-xi.md)
 
