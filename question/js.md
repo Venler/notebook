@@ -22,7 +22,7 @@ MVVM最早由微软提出来，它借鉴了桌面应用程序的MVC思想，在�
 
 **数据劫持：**
 
-vue.js 则是采用数据劫持结合发布者-订阅者模式的方式，通过`Object.defineProperty()`来劫持各个属性的`setter`，`getter`，在数据变动时发布消息给订阅者，触发相应的监听回调。
+vue.js 则是采用数据劫持结合发布者-订阅者模式的方式，通过`Object.defineProperty()//定义对象属性值并给该属性添加一些特性`来劫持各个属性的`setter`，`getter`，在数据变动时发布消息给订阅者，触发相应的监听回调。
 
 当使用存取器描述属性的特性的时候，允许设置以下特性属性：
 
@@ -74,7 +74,7 @@ console.log( obj.newKey ); //change value
 
 **configurable和enumerable同上面的用法。**
 
-vue的流程
+**vue的流程**
 
 ![](/assets/132184689-57b310ea1804f.png)observer:数据监听器
 
