@@ -19,5 +19,6 @@
     * [JS](question/new/js.md)
     * [HTTP](question/new/http.md)
     * [MVVM](question/new/mvvm.md)
+    * [性能优化](question/new/xing-neng-you-hua.md)
 * [css](question/css.md)
 
