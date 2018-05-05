@@ -41,7 +41,7 @@ https://segmentfault.com/a/1190000002778015      ](/ https://segmentfault.com/a/
 
 instanceof是判断实例对象的\_\_proto\_\_和生成该实例的构造函数的prototype是不是引用的同一个地址
 
-#### 
+#### 原型继承
 
-原型继承
+
 
