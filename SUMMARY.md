@@ -16,6 +16,6 @@
     * [网络基础](question/wang-luo-ji-chu.md)
   * [new](question/new.md)
     * [CSS](question/new/css.md)
-    * JS
+    * [JS](question/new/js.md)
 * [css](question/css.md)
 
