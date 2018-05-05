@@ -1,10 +1,7 @@
 ## 作用域
 
-变量的作用域无非就是两种：全局变量和局部变量。
-
-[  
-https://blog.csdn.net/whd526/article/details/70990994  
-](/ https://blog.csdn.net/whd526/article/details/70990994)
+变量的作用域无非就是两种：全局变量和局部变量。[  
+https://blog.csdn.net/whd526/article/details/70990994  ](/ https://blog.csdn.net/whd526/article/details/70990994)
 
 #### 作用域链（Scope Chain）
 
@@ -37,13 +34,13 @@ https://blog.csdn.net/whd526/article/details/70990994
 1.定义外层函数，封装被保护的局部变量。 2.定义内层函数，执行对外部函数变量的操作。 3.外层函数返回内层函数的对象，并且外层函数被调用，结果保存在一个全局的变量中。
 
 [  
-https://zhuanlan.zhihu.com/p/27857268  
+https://zhuanlan.zhihu.com/p/27857268    
 ](/ https://zhuanlan.zhihu.com/p/27857268)
 
 垃圾回收机制
 
 [  
-https://segmentfault.com/a/1190000002778015  
+https://segmentfault.com/a/1190000002778015    
 ](/ https://segmentfault.com/a/1190000002778015)
 
 ## 
