@@ -63,10 +63,6 @@ student.protitype.constructor = student;
 ##### es6继承
 
 ```
-class
-```
-
-```
 class Student {
     constructor(name) {
         this.name = name;
