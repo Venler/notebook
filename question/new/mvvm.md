@@ -8,5 +8,7 @@ Babel的编译过程跟绝大多数其他语言的编译器大致同理，分为
 
 像我们在.babelrc里配置的presets和plugins都是在第2步工作的。
 
+[https://zhuanlan.zhihu.com/p/27289600](https://zhuanlan.zhihu.com/p/27289600)
+
 
 
