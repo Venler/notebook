@@ -11,6 +11,7 @@ object.definepropty(key,{
     set:function(){},
     get:function(){}
 })
+当get set存在时不允许出现value和writable
 ```
 
 object.definepropty\(key,{
