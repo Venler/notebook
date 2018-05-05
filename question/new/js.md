@@ -43,5 +43,50 @@ instanceof是判断实例对象的\_\_proto\_\_和生成该实例的构造函数
 
 #### 原型继承
 
+##### 原型继承
+
+```js
+function Class(name){
+    this.name = name;
+}
+Class.prototype.say = function(){
+    console.log(2)
+}
+
+function student(name){
+    Class.call(this,name);
+}
+student.prototype = Object.create(Class.prototype);
+student.protitype.constructor = student;
+```
+
+##### es6继承
+
+```
+class
+```
+
+```
+class Student {
+    constructor(name) {
+        this.name = name;
+    }
+
+    hello() {
+        alert('Hello, ' + this.name + '!');
+    }
+}
+class PrimaryStudent extends Student {
+    constructor(name, grade) {
+        super(name); // 记得用super调用父类的构造方法!
+        this.grade = grade;
+    }
+
+    myGrade() {
+        alert('I am at grade ' + this.grade);
+    }
+}
+```
+
 
 
