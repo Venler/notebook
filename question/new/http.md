@@ -16,6 +16,10 @@
 
 304 协商缓存
 
+#### HTTP2
+
+[https://www.zhihu.com/question/34074946](https://www.zhihu.com/question/34074946)
+
 #### 缓存
 
 ##### 强制缓存：
