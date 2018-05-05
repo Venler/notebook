@@ -62,7 +62,7 @@ student.protitype.constructor = student;
 
 ##### es6继承
 
-```
+```js
 class Student {
     constructor(name) {
         this.name = name;
@@ -82,6 +82,23 @@ class PrimaryStudent extends Student {
         alert('I am at grade ' + this.grade);
     }
 }
+```
+
+##### new操作符
+
+```js
+var obj = {};
+obj.prototype = fn.prototype;
+fn.call(obj);
+return obj;
+```
+
+##### object.create\(fn\)
+
+```
+var fn2 = function(){};
+fn2.prototype = fn;
+return new fn2();
 ```
 
 
