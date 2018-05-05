@@ -173,3 +173,22 @@ Promise 是异步编程的一种解决方案，比传统的解决方案——回
 
 [http://www.ruanyifeng.com/blog/2014/10/event-loop.html](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 
+
+
+## 错误处理
+
+[https://www.cnblogs.com/xiaohuochai/p/5677490.html](https://www.cnblogs.com/xiaohuochai/p/5677490.html)
+
+三、使用  try catch  finally 处理程序
+
+抛出错误使用throw关键字
+
+```
+1 throw {msg:"my error"};
+2 throw new Error("our error");
+```
+
+
+
+
+
