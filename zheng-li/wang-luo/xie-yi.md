@@ -6,7 +6,7 @@
 
 传输层：提供端到端的可靠报文传递和错误恢复（段segment） TCP/UDP协议
 
-会话层：建立、管理和终止会话 
+会话层：建立、管理和终止会话
 
 表示层：对数据进行翻译、加密和压缩
 
@@ -42,7 +42,25 @@
 
 ## ICMP
 
-ICMP是（Internet Control Message Protocol）Internet控制[报文](https://baike.baidu.com/item/报文)协议。它是[TCP/IP协议族](https://baike.baidu.com/item/TCP%2FIP协议族)的一个子协议，用于在IP[主机](https://baike.baidu.com/item/主机)、[路由](https://baike.baidu.com/item/路由)器之间传递控制消息。控制消息是指[网络通](https://baike.baidu.com/item/网络通)不通、[主机](https://baike.baidu.com/item/主机)是否可达、[路由](https://baike.baidu.com/item/路由)是否可用等网络本身的消息。这些控制消息虽然并不传输用户数据，但是对于用户数据的传递起着重要的作用。
+ICMP是（Internet Control Message Protocol）Internet控制[报文](https://baike.baidu.com/item/报文)协议。它是[TCP/IP协议族](https://baike.baidu.com/item/TCP%2FIP协议族)的一个子协议，用于在IP[主机](https://baike.baidu.com/item/主机)、[路由](https://baike.baidu.com/item/路由)器之间传递控制消息。控制消息是指[网络通](https://baike.baidu.com/item/网络通)不通、[主机](https://baike.baidu.com/item/主机)是否可达、[路由](https://baike.baidu.com/item/路由)是否可用等网络本身的消息。这些控制消息虽然并不传输用户数据，但是对于用户数据的传递起着重要的作用。通过IP协议发送
+
+#### PING命令
+
+发：
+
+1.生成固定格式的ICMP数据包
+
+2.将包和目标IP地址一起传送给IP协议
+
+3.IP协议将该地址作为目标地址构建IP数据包，并将通过ARP协议查找到的本地映射表上的对应的MAC地址一起传送给数据链路层
+
+4.数据链路层构建数据帧，并将本机MAC地址设为源地址，该地址为目标MAC地址，并附加控制信息传送出去
+
+收：
+
+
+
+
 
 ## 状态码
 
