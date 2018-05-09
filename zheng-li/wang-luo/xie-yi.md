@@ -92,6 +92,10 @@ ICMP是（Internet Control Message Protocol）Internet控制[报文](https://bai
 
 [https://www.zhihu.com/question/34074946](https://www.zhihu.com/question/34074946)
 
+## websocket
+
+[http://www.ruanyifeng.com/blog/2017/05/websocket.html](http://www.ruanyifeng.com/blog/2017/05/websocket.html)
+
 #### 缓存
 
 ##### 强制缓存：
