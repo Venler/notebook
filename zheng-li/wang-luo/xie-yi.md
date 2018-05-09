@@ -58,9 +58,13 @@ ICMP是（Internet Control Message Protocol）Internet控制[报文](https://bai
 
 收：
 
+## HTTP
 
+[https://www.cnblogs.com/master-song/p/8820244.html](https://www.cnblogs.com/master-song/p/8820244.html)
 
+## TCP
 
+[https://blog.csdn.net/qq\_34328833/article/details/60468358](https://blog.csdn.net/qq_34328833/article/details/60468358)
 
 ## 状态码
 
