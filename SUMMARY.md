@@ -7,10 +7,6 @@
   * [随机学习](0412/sui-ji-xue-xi.md)
 * [0417](0413.md)
 * [question](question.md)
-  * [js](question/js.md)
-    * [性能优化](question/js/xing-neng-you-hua.md)
-    * [原型链闭包](question/js/yuan-xing-lian-bi-bao.md)
-    * [http](question/js/http.md)
   * [其他](question/qi-ta.md)
     * [数据结构](question/shu-ju-jie-gou.md)
     * [网络基础](question/wang-luo-ji-chu.md)
@@ -30,4 +26,5 @@
     * [协议](zheng-li/wang-luo/xie-yi.md)
     * [网络安全](zheng-li/wang-luo/wang-luo-an-quan.md)
   * [Vue](zheng-li/vue.md)
+  * [数据结构](zheng-li/shu-ju-jie-gou.md)
 
