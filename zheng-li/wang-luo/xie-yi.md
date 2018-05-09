@@ -66,6 +66,10 @@ ICMP是（Internet Control Message Protocol）Internet控制[报文](https://bai
 
 [https://blog.csdn.net/qq\_34328833/article/details/60468358](https://blog.csdn.net/qq_34328833/article/details/60468358)
 
+## IP
+
+[https://blog.csdn.net/super\_yc/article/details/72290931](https://blog.csdn.net/super_yc/article/details/72290931)
+
 ## 状态码
 
 101 协议升级  用于websocket和HTTP2\(单链接多次请求，二进制，压缩头部，服务器推送\)
