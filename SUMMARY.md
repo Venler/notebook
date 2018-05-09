@@ -2,8 +2,7 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
-* [0411](20180411.md)
-* [整理](zheng-li.md)
+* [介绍](zheng-li.md)
   * [开始](zheng-li/kai-shi.md)
   * [HTML](zheng-li/html.md)
   * [CSS](zheng-li/css.md)
