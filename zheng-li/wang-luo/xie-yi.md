@@ -62,7 +62,9 @@ ICMP是（Internet Control Message Protocol）Internet控制[报文](https://bai
 
 超文本传输协议
 
-特点：无连接（每次连接只能处理一个请求，处理完后断开）、无状态（对事务处理无记忆能力）
+特点：**无连接**（每次连接只能处理一个请求，处理完后断开）、**无状态**（对事务处理无记忆能力）
+
+**步骤：**
 
 1.浏览器解析URL，本地DNS缓存或者请求DNS服务器
 
@@ -76,9 +78,17 @@ ICMP是（Internet Control Message Protocol）Internet控制[报文](https://bai
 
 6.浏览器处理资源或者数据
 
+消息结构：
+
+请求：请求行、请求头、空行、请求体
+
+返回：状态行、返回头、空行、返回体
+
 [https://www.cnblogs.com/master-song/p/8820244.html](https://www.cnblogs.com/master-song/p/8820244.html)
 
 ## TCP
+
+TCP为了保证不发生丢包，就给每个包一个序号，同时序号也保证了传送到接收端实体的包的按序接收。然后接收端实体对已成功收到的包发回一个相应的确认（ACK）；如果发送端实体在合理的往返时延（[RTT](https://baike.baidu.com/item/RTT)）内未收到确认，那么对应的数据包就被假设为已丢失将会被进行重传。TCP用一个校验和函数来检验数据是否有错误；在发送和接收时都要计算校验和。
 
 [https://blog.csdn.net/qq\_34328833/article/details/60468358](https://blog.csdn.net/qq_34328833/article/details/60468358)
 
