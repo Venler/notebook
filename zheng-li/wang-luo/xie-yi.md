@@ -60,6 +60,22 @@ ICMP是（Internet Control Message Protocol）Internet控制[报文](https://bai
 
 ## HTTP
 
+超文本传输协议
+
+特点：无连接（每次连接只能处理一个请求，处理完后断开）、无状态（对事务处理无记忆能力）
+
+1.浏览器解析URL，本地DNS缓存或者请求DNS服务器
+
+2.根据IP地址和默认端口80建立TCP连接
+
+3.浏览器发出HTTP请求，在TCP第三次握手的时候发送给服务器
+
+4.服务器做出响应，将数据或者资源返回给客户端
+
+5.释放TCP连接
+
+6.浏览器处理资源或者数据
+
 [https://www.cnblogs.com/master-song/p/8820244.html](https://www.cnblogs.com/master-song/p/8820244.html)
 
 ## TCP
